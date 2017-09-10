@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Kingfisher (3.10.4)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - RxTest (3.6.1):
+    - RxSwift (~> 3.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher (~> 3.0)
+  - RxCocoa
+  - RxSwift
+  - RxTest
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Kingfisher: dc3a4983e86d2dfa89513664983a82340c11a289
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  RxTest: 1d00348a7848c91ab5bf5d197d2378aa6b2bb356
+
+PODFILE CHECKSUM: 5ae24806b8a931e24788b52e3ddb24d6998d4613
+
+COCOAPODS: 1.2.1

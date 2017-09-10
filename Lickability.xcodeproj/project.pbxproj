@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C868245CC90063D715594C6 /* Pods_LickabilityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2F29450D3FEFE40CC44E18 /* Pods_LickabilityTests.framework */; };
+		69022B031F3BD87D00EA349F /* PhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B021F3BD87D00EA349F /* PhotosTableViewController.swift */; };
+		69022B071F3BD93500EA349F /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B061F3BD93500EA349F /* PhotosTableViewCell.swift */; };
+		69022B0A1F3BDAC500EA349F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B091F3BDAC500EA349F /* Photo.swift */; };
+		69022B0D1F3BDC5600EA349F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B0C1F3BDC5600EA349F /* API.swift */; };
+		69022B101F3BDD7B00EA349F /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B0F1F3BDD7B00EA349F /* PhotosViewModel.swift */; };
+		69022B151F3CDF2600EA349F /* PhotosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B141F3CDF2600EA349F /* PhotosDetailViewController.swift */; };
+		69022B1D1F3CFB6800EA349F /* DetailTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B1C1F3CFB6800EA349F /* DetailTransition.swift */; };
+		69022B1F1F3D1E2300EA349F /* NavDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B1E1F3D1E2300EA349F /* NavDelegate.swift */; };
+		69022B211F3D766500EA349F /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B201F3D766500EA349F /* Delay.swift */; };
+		693080581F43FC1A008918A6 /* PresentAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693080571F43FC1A008918A6 /* PresentAlert.swift */; };
+		69C12C7F1F40A3BC0060382F /* UIImageView+GetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C12C7E1F40A3BC0060382F /* UIImageView+GetColor.swift */; };
+		69C740F41F3BD65E00FE1E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C740F31F3BD65E00FE1E91 /* AppDelegate.swift */; };
+		69C740F91F3BD65E00FE1E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C740F71F3BD65E00FE1E91 /* Main.storyboard */; };
+		69C740FC1F3BD65E00FE1E91 /* Lickability.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69C740FA1F3BD65E00FE1E91 /* Lickability.xcdatamodeld */; };
+		69C740FE1F3BD65E00FE1E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C740FD1F3BD65E00FE1E91 /* Assets.xcassets */; };
+		69C741011F3BD65E00FE1E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C740FF1F3BD65E00FE1E91 /* LaunchScreen.storyboard */; };
+		69C7410C1F3BD65F00FE1E91 /* LickabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C7410B1F3BD65F00FE1E91 /* LickabilityTests.swift */; };
+		69F7EA581F4216280017BBD8 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7EA571F4216280017BBD8 /* DetailViewModel.swift */; };
+		69F7EA5A1F425F230017BBD8 /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7EA591F425F230017BBD8 /* MockAPI.swift */; };
+		69F7EA5B1F425F3B0017BBD8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B0C1F3BDC5600EA349F /* API.swift */; };
+		69F7EA5C1F425F3F0017BBD8 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B091F3BDAC500EA349F /* Photo.swift */; };
+		69F7EA5D1F425F490017BBD8 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B0F1F3BDD7B00EA349F /* PhotosViewModel.swift */; };
+		69F7EA5E1F425F4C0017BBD8 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7EA571F4216280017BBD8 /* DetailViewModel.swift */; };
+		69F7EA5F1F425F540017BBD8 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B061F3BD93500EA349F /* PhotosTableViewCell.swift */; };
+		69F7EA601F425F570017BBD8 /* PhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B021F3BD87D00EA349F /* PhotosTableViewController.swift */; };
+		69F7EA611F425F590017BBD8 /* PhotosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B141F3CDF2600EA349F /* PhotosDetailViewController.swift */; };
+		69F939611F42AC740004F723 /* UIImageView+GetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C12C7E1F40A3BC0060382F /* UIImageView+GetColor.swift */; };
+		69F939621F42ACBB0004F723 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69022B201F3D766500EA349F /* Delay.swift */; };
+		69F939641F42B11B0004F723 /* MockPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F939631F42B11B0004F723 /* MockPhotosViewModel.swift */; };
+		981FB26173E65783B987CF99 /* Pods_Lickability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A8A781FFBFEB61B93EC7C0 /* Pods_Lickability.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69C741081F3BD65F00FE1E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69C740E81F3BD65E00FE1E91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69C740EF1F3BD65E00FE1E91;
+			remoteInfo = Lickability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A8A781FFBFEB61B93EC7C0 /* Pods_Lickability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lickability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C2F6B2ADC85976D1A8B6E9 /* Pods-LickabilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LickabilityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LickabilityTests/Pods-LickabilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69022B021F3BD87D00EA349F /* PhotosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTableViewController.swift; sourceTree = "<group>"; };
+		69022B061F3BD93500EA349F /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		69022B091F3BDAC500EA349F /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		69022B0C1F3BDC5600EA349F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		69022B0F1F3BDD7B00EA349F /* PhotosViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		69022B141F3CDF2600EA349F /* PhotosDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosDetailViewController.swift; sourceTree = "<group>"; };
+		69022B1C1F3CFB6800EA349F /* DetailTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTransition.swift; sourceTree = "<group>"; };
+		69022B1E1F3D1E2300EA349F /* NavDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavDelegate.swift; sourceTree = "<group>"; };
+		69022B201F3D766500EA349F /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		693080571F43FC1A008918A6 /* PresentAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentAlert.swift; sourceTree = "<group>"; };
+		69C12C7E1F40A3BC0060382F /* UIImageView+GetColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+GetColor.swift"; sourceTree = "<group>"; };
+		69C740F01F3BD65E00FE1E91 /* Lickability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lickability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C740F31F3BD65E00FE1E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69C740F81F3BD65E00FE1E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69C740FB1F3BD65E00FE1E91 /* Lickability.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lickability.xcdatamodel; sourceTree = "<group>"; };
+		69C740FD1F3BD65E00FE1E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69C741001F3BD65E00FE1E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69C741021F3BD65E00FE1E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C741071F3BD65F00FE1E91 /* LickabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LickabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C7410B1F3BD65F00FE1E91 /* LickabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LickabilityTests.swift; sourceTree = "<group>"; };
+		69C7410D1F3BD65F00FE1E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F7EA571F4216280017BBD8 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		69F7EA591F425F230017BBD8 /* MockAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPI.swift; sourceTree = "<group>"; };
+		69F939631F42B11B0004F723 /* MockPhotosViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockPhotosViewModel.swift; sourceTree = "<group>"; };
+		7D82F29413236386E8D2A857 /* Pods-Lickability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lickability.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lickability/Pods-Lickability.release.xcconfig"; sourceTree = "<group>"; };
+		9C2F29450D3FEFE40CC44E18 /* Pods_LickabilityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LickabilityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7D218B438D06B7E531F0D7 /* Pods-Lickability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lickability.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lickability/Pods-Lickability.debug.xcconfig"; sourceTree = "<group>"; };
+		A3A810708A720AF01CC2E5BB /* Pods-LickabilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LickabilityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LickabilityTests/Pods-LickabilityTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C740ED1F3BD65E00FE1E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981FB26173E65783B987CF99 /* Pods_Lickability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C741041F3BD65F00FE1E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C868245CC90063D715594C6 /* Pods_LickabilityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3434E45E4C1273D34D1BEC4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F7D218B438D06B7E531F0D7 /* Pods-Lickability.debug.xcconfig */,
+				7D82F29413236386E8D2A857 /* Pods-Lickability.release.xcconfig */,
+				18C2F6B2ADC85976D1A8B6E9 /* Pods-LickabilityTests.debug.xcconfig */,
+				A3A810708A720AF01CC2E5BB /* Pods-LickabilityTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69022B041F3BD91800EA349F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69022B021F3BD87D00EA349F /* PhotosTableViewController.swift */,
+				69022B141F3CDF2600EA349F /* PhotosDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		69022B051F3BD91F00EA349F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69022B061F3BD93500EA349F /* PhotosTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		69022B081F3BDAAF00EA349F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69022B091F3BDAC500EA349F /* Photo.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		69022B0B1F3BDC4400EA349F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				69022B0C1F3BDC5600EA349F /* API.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		69022B0E1F3BDD5F00EA349F /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				69022B0F1F3BDD7B00EA349F /* PhotosViewModel.swift */,
+				69F7EA571F4216280017BBD8 /* DetailViewModel.swift */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		69022B111F3BDE7D00EA349F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				69022B201F3D766500EA349F /* Delay.swift */,
+				69022B1C1F3CFB6800EA349F /* DetailTransition.swift */,
+				69022B1E1F3D1E2300EA349F /* NavDelegate.swift */,
+				69C12C7E1F40A3BC0060382F /* UIImageView+GetColor.swift */,
+				693080571F43FC1A008918A6 /* PresentAlert.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		69C740E71F3BD65E00FE1E91 = {
+			isa = PBXGroup;
+			children = (
+				69C740F21F3BD65E00FE1E91 /* Lickability */,
+				69C7410A1F3BD65F00FE1E91 /* LickabilityTests */,
+				69C740F11F3BD65E00FE1E91 /* Products */,
+				3434E45E4C1273D34D1BEC4F /* Pods */,
+				FFC8BDDE73761085C4E07BB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69C740F11F3BD65E00FE1E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C740F01F3BD65E00FE1E91 /* Lickability.app */,
+				69C741071F3BD65F00FE1E91 /* LickabilityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C740F21F3BD65E00FE1E91 /* Lickability */ = {
+			isa = PBXGroup;
+			children = (
+				69C740F31F3BD65E00FE1E91 /* AppDelegate.swift */,
+				69022B111F3BDE7D00EA349F /* Utilities */,
+				69022B0B1F3BDC4400EA349F /* API */,
+				69022B081F3BDAAF00EA349F /* Models */,
+				69022B0E1F3BDD5F00EA349F /* View Models */,
+				69022B051F3BD91F00EA349F /* Views */,
+				69022B041F3BD91800EA349F /* View Controllers */,
+				69C740F71F3BD65E00FE1E91 /* Main.storyboard */,
+				69C740FD1F3BD65E00FE1E91 /* Assets.xcassets */,
+				69C740FF1F3BD65E00FE1E91 /* LaunchScreen.storyboard */,
+				69C741021F3BD65E00FE1E91 /* Info.plist */,
+				69C740FA1F3BD65E00FE1E91 /* Lickability.xcdatamodeld */,
+			);
+			path = Lickability;
+			sourceTree = "<group>";
+		};
+		69C7410A1F3BD65F00FE1E91 /* LickabilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				69C7410B1F3BD65F00FE1E91 /* LickabilityTests.swift */,
+				69F7EA591F425F230017BBD8 /* MockAPI.swift */,
+				69F939631F42B11B0004F723 /* MockPhotosViewModel.swift */,
+				69C7410D1F3BD65F00FE1E91 /* Info.plist */,
+			);
+			path = LickabilityTests;
+			sourceTree = "<group>";
+		};
+		FFC8BDDE73761085C4E07BB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A8A781FFBFEB61B93EC7C0 /* Pods_Lickability.framework */,
+				9C2F29450D3FEFE40CC44E18 /* Pods_LickabilityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C740EF1F3BD65E00FE1E91 /* Lickability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C741101F3BD65F00FE1E91 /* Build configuration list for PBXNativeTarget "Lickability" */;
+			buildPhases = (
+				BE83D27B5C3EBC81515EE19A /* [CP] Check Pods Manifest.lock */,
+				69C740EC1F3BD65E00FE1E91 /* Sources */,
+				69C740ED1F3BD65E00FE1E91 /* Frameworks */,
+				69C740EE1F3BD65E00FE1E91 /* Resources */,
+				A5498980446967538E312ED5 /* [CP] Embed Pods Frameworks */,
+				D934824B87DE72E4C59EED7D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lickability;
+			productName = Lickability;
+			productReference = 69C740F01F3BD65E00FE1E91 /* Lickability.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69C741061F3BD65F00FE1E91 /* LickabilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C741131F3BD65F00FE1E91 /* Build configuration list for PBXNativeTarget "LickabilityTests" */;
+			buildPhases = (
+				06AEC940E202F36AA5CB6747 /* [CP] Check Pods Manifest.lock */,
+				69C741031F3BD65F00FE1E91 /* Sources */,
+				69C741041F3BD65F00FE1E91 /* Frameworks */,
+				69C741051F3BD65F00FE1E91 /* Resources */,
+				9BDDF1656F0A09861ADB59E7 /* [CP] Embed Pods Frameworks */,
+				B52847BA911CC6790F9A2845 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69C741091F3BD65F00FE1E91 /* PBXTargetDependency */,
+			);
+			name = LickabilityTests;
+			productName = LickabilityTests;
+			productReference = 69C741071F3BD65F00FE1E91 /* LickabilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C740E81F3BD65E00FE1E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Komran Ghahremani";
+				TargetAttributes = {
+					69C740EF1F3BD65E00FE1E91 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G23SDK69HF;
+						ProvisioningStyle = Automatic;
+					};
+					69C741061F3BD65F00FE1E91 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G23SDK69HF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69C740EF1F3BD65E00FE1E91;
+					};
+				};
+			};
+			buildConfigurationList = 69C740EB1F3BD65E00FE1E91 /* Build configuration list for PBXProject "Lickability" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C740E71F3BD65E00FE1E91;
+			productRefGroup = 69C740F11F3BD65E00FE1E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C740EF1F3BD65E00FE1E91 /* Lickability */,
+				69C741061F3BD65F00FE1E91 /* LickabilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C740EE1F3BD65E00FE1E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C741011F3BD65E00FE1E91 /* LaunchScreen.storyboard in Resources */,
+				69C740FE1F3BD65E00FE1E91 /* Assets.xcassets in Resources */,
+				69C740F91F3BD65E00FE1E91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C741051F3BD65F00FE1E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06AEC940E202F36AA5CB6747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDDF1656F0A09861ADB59E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LickabilityTests/Pods-LickabilityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5498980446967538E312ED5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lickability/Pods-Lickability-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B52847BA911CC6790F9A2845 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LickabilityTests/Pods-LickabilityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE83D27B5C3EBC81515EE19A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D934824B87DE72E4C59EED7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lickability/Pods-Lickability-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C740EC1F3BD65E00FE1E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69022B101F3BDD7B00EA349F /* PhotosViewModel.swift in Sources */,
+				69022B071F3BD93500EA349F /* PhotosTableViewCell.swift in Sources */,
+				69C740FC1F3BD65E00FE1E91 /* Lickability.xcdatamodeld in Sources */,
+				69022B031F3BD87D00EA349F /* PhotosTableViewController.swift in Sources */,
+				69C740F41F3BD65E00FE1E91 /* AppDelegate.swift in Sources */,
+				69C12C7F1F40A3BC0060382F /* UIImageView+GetColor.swift in Sources */,
+				69022B0D1F3BDC5600EA349F /* API.swift in Sources */,
+				69022B0A1F3BDAC500EA349F /* Photo.swift in Sources */,
+				69022B151F3CDF2600EA349F /* PhotosDetailViewController.swift in Sources */,
+				69F7EA581F4216280017BBD8 /* DetailViewModel.swift in Sources */,
+				693080581F43FC1A008918A6 /* PresentAlert.swift in Sources */,
+				69022B211F3D766500EA349F /* Delay.swift in Sources */,
+				69022B1D1F3CFB6800EA349F /* DetailTransition.swift in Sources */,
+				69022B1F1F3D1E2300EA349F /* NavDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C741031F3BD65F00FE1E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F939621F42ACBB0004F723 /* Delay.swift in Sources */,
+				69F7EA5C1F425F3F0017BBD8 /* Photo.swift in Sources */,
+				69F7EA5F1F425F540017BBD8 /* PhotosTableViewCell.swift in Sources */,
+				69F7EA5E1F425F4C0017BBD8 /* DetailViewModel.swift in Sources */,
+				69F7EA5A1F425F230017BBD8 /* MockAPI.swift in Sources */,
+				69F7EA5D1F425F490017BBD8 /* PhotosViewModel.swift in Sources */,
+				69F939611F42AC740004F723 /* UIImageView+GetColor.swift in Sources */,
+				69F7EA5B1F425F3B0017BBD8 /* API.swift in Sources */,
+				69F7EA601F425F570017BBD8 /* PhotosTableViewController.swift in Sources */,
+				69C7410C1F3BD65F00FE1E91 /* LickabilityTests.swift in Sources */,
+				69F7EA611F425F590017BBD8 /* PhotosDetailViewController.swift in Sources */,
+				69F939641F42B11B0004F723 /* MockPhotosViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69C741091F3BD65F00FE1E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69C740EF1F3BD65E00FE1E91 /* Lickability */;
+			targetProxy = 69C741081F3BD65F00FE1E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69C740F71F3BD65E00FE1E91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C740F81F3BD65E00FE1E91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69C740FF1F3BD65E00FE1E91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C741001F3BD65E00FE1E91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69C7410E1F3BD65F00FE1E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69C7410F1F3BD65F00FE1E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C741111F3BD65F00FE1E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7D218B438D06B7E531F0D7 /* Pods-Lickability.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G23SDK69HF;
+				INFOPLIST_FILE = Lickability/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxSwift\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komran.Lickability;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69C741121F3BD65F00FE1E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D82F29413236386E8D2A857 /* Pods-Lickability.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G23SDK69HF;
+				INFOPLIST_FILE = Lickability/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxSwift\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komran.Lickability;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		69C741141F3BD65F00FE1E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C2F6B2ADC85976D1A8B6E9 /* Pods-LickabilityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G23SDK69HF;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LickabilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.komran.LickabilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lickability.app/Lickability";
+			};
+			name = Debug;
+		};
+		69C741151F3BD65F00FE1E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A810708A720AF01CC2E5BB /* Pods-LickabilityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G23SDK69HF;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LickabilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.komran.LickabilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lickability.app/Lickability";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C740EB1F3BD65E00FE1E91 /* Build configuration list for PBXProject "Lickability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C7410E1F3BD65F00FE1E91 /* Debug */,
+				69C7410F1F3BD65F00FE1E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C741101F3BD65F00FE1E91 /* Build configuration list for PBXNativeTarget "Lickability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C741111F3BD65F00FE1E91 /* Debug */,
+				69C741121F3BD65F00FE1E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C741131F3BD65F00FE1E91 /* Build configuration list for PBXNativeTarget "LickabilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C741141F3BD65F00FE1E91 /* Debug */,
+				69C741151F3BD65F00FE1E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69C740FA1F3BD65E00FE1E91 /* Lickability.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69C740FB1F3BD65E00FE1E91 /* Lickability.xcdatamodel */,
+			);
+			currentVersion = 69C740FB1F3BD65E00FE1E91 /* Lickability.xcdatamodel */;
+			path = Lickability.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69C740E81F3BD65E00FE1E91 /* Project object */;
+}
